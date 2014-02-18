@@ -176,6 +176,9 @@ label{
 .c-sessions .col-lg-4 img{
 	height: 100px;
 }
+.c-sessions-second-row{
+	margin-top: 40px;
+}
 .c-speakers{
 	background: #f2f2f2;
 	padding: 50px 0px 120px 0px;
