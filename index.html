@@ -785,6 +785,35 @@
         </div>
       </div>
 
+      <!-- Modal -->
+      <div class="modal fade" id="c-modal-credits" tabindex="-1" role="dialog" aria-labelledby="myModalLabelcredits" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title" id="myModalLabelcredits">Credits</h4>
+                  </div>
+                  <div class="modal-body credits-container">
+                      <p>These are the people who made this event happen.</p>
+                      <p>
+                          <p class="credits-name">Jsx</p>
+                          <p class="credits-info">In-charge</p>
+                          <p class="credits-contact">
+                              <a href="http://rebugged.com">Blog</a> |
+                              <a href="http://facebook.com/saurabhx">Facebook</a> |
+                              <a href="http://twitter.com/saurabhx">Twitter</a> |
+                              <a href="mailto:saurabh@rebugged.com">Email</a>
+                          </p>
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
 
        <div class="c-container-wrap c-footer">
         <div class="container">
@@ -805,11 +834,11 @@
           <div class="row c-footer-bottom">
             <div class="col-md-12">
               <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="javascript:;" data-target="#c-modal-sponsor" data-toggle="modal">Become a sponsor</a></li>
+                <li><a href="javascript:;" data-target="#c-modal-credits" data-toggle="modal">Credits</a></li>
               </ul>
               <p class="text-right" style="margin-top:-10px;">Designed by <a href="http://codeyssus.com/" target="_blank">Codeyssus Labs</a></p>
             </div>

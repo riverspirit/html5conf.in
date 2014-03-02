@@ -756,3 +756,11 @@ label{
 .c-chevron-first-below{
 	margin-top: -30px;
 }
+
+.credits-container {
+    text-align: center;
+}
+
+.credits-name {
+    font-weight: bold;
+}
