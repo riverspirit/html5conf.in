@@ -58,6 +58,7 @@
           </div>
         </div>
       </div>
+      <canvas id="canvas1" style="position: absolute;"></canvas>
       <div class="c-container-wrap c-home-area" id="home">
         <div class="container">
 
@@ -130,7 +131,7 @@
             <div class="col-lg-3 col-md-3 col-xs-6">
               <img src="images/web-graphics.png" alt="html5-devconf-session-logo">
               <h4>The future of Web Graphics</h4>
-              <p>Shwatank Dixit<br>(Developer Evangelist, Opera)</p>
+              <p>Shwetank Dixit<br>(Developer Evangelist, Opera)</p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-6">
               <img src="images/emberjs-logo.png" alt="html5-devconf-session-logo">
@@ -187,7 +188,7 @@
 
           <div class="row">
 
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-0">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
                           <img src="images/shwetank-dixit.jpg" alt="html5-devconf-speaker">
@@ -217,7 +218,7 @@
                       </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-1">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
                           <img src="images/nick-desaulniers.jpg" alt="html5-devconf-speaker">
@@ -247,7 +248,7 @@
                       </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-2">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
                           <img src="images/praseed-pai.jpg" alt="html5-devconf-speaker">
@@ -277,14 +278,14 @@
                       </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-3">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
                           <img src="images/speaker-placeholder.jpg" alt="html5-devconf-speaker">
                         </div>
-                        <h4>Coming Soon</h4>
-                        <h6></h6>
-                        <h6></h6>
+                        <h4>Shine Xavier</h4>
+                        <h6>Technical Architect</h6>
+                        <h6>UST Global</h6>
                         
                         <div class="c-speaker-social-icons c-speaker-social-icons-empty">
                           
@@ -351,7 +352,7 @@
                           10:00am
                         </p>
                         <p class="c-schedule-session-name">
-                          Shwatank Dixit
+                          Shwetank Dixit
                         </p>
                         <p class="c-schedule-name">
                           The future of Web Graphics
@@ -529,6 +530,23 @@
 
               <div class="row c-schedule-row-each">
 
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
+                      <div class="c-schedule-pic">
+                        <img src="images/js-action.png" alt="html5-devconf-schedule-icon">
+                      </div>
+                      <div class="c-schedule-details">
+                        <p class="c-schedule-time">
+                          05:00pm
+                        </p>
+                        <p class="c-schedule-session-name">
+                          Javascript: "Good Parts" in action
+                        </p>
+                        <p class="c-schedule-name">
+                          Shine Xavier
+                        </p>
+                      </div>
+                    </div>
+
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
                         <img src="images/praseed-pai.jpg" alt="html5-devconf-schedule-icon">
@@ -542,23 +560,6 @@
                         </p>
                         <p class="c-schedule-name">
                           Praseed Pai
-                        </p>
-                      </div>
-                    </div>
-                    
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
-                      <div class="c-schedule-pic">
-                        <img src="images/js-action.png" alt="html5-devconf-schedule-icon">
-                      </div>
-                      <div class="c-schedule-details">
-                        <p class="c-schedule-time">
-                          05:00pm
-                        </p>
-                        <p class="c-schedule-session-name">
-                          Javascript: "Good Parts" in action
-                        </p>
-                        <p class="c-schedule-name">
-                          Shine Xavier
                         </p>
                       </div>
                     </div>
@@ -840,7 +841,7 @@
 
 
 
-    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/jquery-2.0.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script type="text/javascript">
