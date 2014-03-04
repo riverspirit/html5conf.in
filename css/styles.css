@@ -764,3 +764,18 @@ label{
 .credits-name {
     font-weight: bold;
 }
+
+/* fucked up by jsx */
+.conf-logo-main {
+	margin-top: -3px !important;
+}
+
+.conf-logo-main a {
+    padding-top: 9px !important;
+    padding-bottom: 2px !important;
+    margin-top: -5px !important;
+}
+
+.conf-logo-main a img {
+	height: 52px !important;
+}
