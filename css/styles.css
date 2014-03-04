@@ -496,9 +496,6 @@ label{
 	float: left;
 	margin-right: 10px;
 }
-.c-footer-logo img{
-	width: 110%;
-}
 .c-footer-end{
 	background: url(../images/footer-bg.jpg) top center no-repeat;
 	background-size: 100%;
@@ -782,4 +779,20 @@ label{
 
 .c-footer-logo img {
     height: 40px;
+}
+
+.credits-name-link img {
+    width: 49px;
+}
+
+.credits-name-link-jsx img {
+    width: 54px;
+}
+
+.selected-person-info-contain {
+    font-family: monospace, "Courier New", "Andale Mono";
+}
+
+.credits-info a:hover {
+    text-decoration: none;
 }

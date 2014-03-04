@@ -794,16 +794,42 @@
                       <h4 class="modal-title" id="myModalLabelcredits">Credits</h4>
                   </div>
                   <div class="modal-body credits-container">
-                      <p>These are the people who made this event happen.</p>
+                      <p>This event is brought to you with ♥ by:</p>
                       <p>
-                          <p class="credits-name">Jsx</p>
-                          <p class="credits-info">In-charge</p>
-                          <p class="credits-contact">
-                              <a href="http://rebugged.com">Blog</a> |
-                              <a href="http://facebook.com/saurabhx">Facebook</a> |
-                              <a href="http://twitter.com/saurabhx">Twitter</a> |
-                              <a href="mailto:saurabh@rebugged.com">Email</a>
+                          <p class="credits-name">
+                             <a href="https://www.facebook.com/saurabhx" class="credits-name-link credits-name-link-jsx" data-mouseover="jsx" id="info-jsx">
+                                  <img src="images/credits/jsx.png" />
+                              </a>
                           </p>
+                          <p class="credits-info">&</p>
+                          <p class="credits-contact">
+                              <a href="https://www.facebook.com/ArunHaridas6" class="credits-name-link" data-mouseover="Arun Haridas" id="info-arun">
+                                  <img src="images/credits/arun.jpg" /></a> &nbsp;
+
+                              <a href="https://www.facebook.com/theCoderDotIn" class="credits-name-link" data-mouseover="Rahul Ramesh" id="info-rahul">
+                                  <img src="images/credits/rahul.jpg" /></a> &nbsp;
+
+                              <a href="https://www.facebook.com/MidhunManojkumar" class="credits-name-link" data-mouseover="Midhun Manoj" id="info-midhun">
+                                  <img src="images/credits/midhun.jpg" />
+                              </a> &nbsp;
+
+                              <a href="https://www.facebook.com/praveenshridhar" class="credits-name-link" data-mouseover="Praveen Sridhar" id="info-praveen">
+                                  <img src="images/credits/praveen.jpg" /></a> &nbsp;
+
+                              <a href="https://www.facebook.com/abidaboobaker?" class="credits-name-link" data-mouseover="Abid Aboobaker" id="info-abid">
+                                  <img src="images/credits/abid.jpg" /></a> &nbsp;
+
+                              <a href="https://www.facebook.com/anushbmx" class="credits-name-link" data-mouseover="Anush Anilkumar" id="info-anush">
+                                  <img src="images/credits/anush.jpg" /></a> &nbsp;
+
+                              <a href="https://www.facebook.com/inkwash" class="credits-name-link" data-mouseover="Ashwin Krishnan" id="info-ashwin">
+                                  <img src="images/credits/ashwin.jpg" /></a> &nbsp;
+
+                              <a href="https://www.facebook.com/divine.shine" class="credits-name-link" data-mouseover="Shine Nelson" id="info-shine">
+                                  <img src="images/credits/shine.jpg" /></a>
+                          </p>
+
+                          <p class="selected-person-info-contain" id="selected-person-info-contain"></p>
                       </p>
                   </div>
                   <div class="modal-footer">
@@ -870,9 +896,10 @@
 
 
 
-    <script src="js/jquery-2.0.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jquery.typer.min.js"></script>
     <script type="text/javascript">
       $(window).scroll(function() {
         if ($( this).scrollTop() < $('#sessions').offset().top  ) {
