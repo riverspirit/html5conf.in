@@ -779,3 +779,7 @@ label{
 .conf-logo-main a img {
 	height: 52px !important;
 }
+
+.c-footer-logo img {
+    height: 40px;
+}
