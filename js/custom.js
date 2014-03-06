@@ -284,8 +284,13 @@ $(document).ready(function () {
     };
     $('.credits-name-link').mouseenter(function() {
         var info_text = $(this).data('mouseover');
-        console.log(info_text)
         $('#selected-person-info-contain').typeTo(info_text);
     });
+
+    $('#masthead').typeTo('html');
+
+    setTimeout(function () {
+        $('#masthead').typeTo('#html5devconf');
+    }, 2000);
 });
 
