@@ -630,15 +630,52 @@
 
           <div class="row">
             <div class="col-md-4">
-              <form>
-                <label>Your name:</label>
-                <input type="text" placeholder="enter name here" name="name">
-                <label>Your email:</label>
-                <input type="text" placeholder="enter email here" name="email">
-                <label>Your message:</label>
-                <textarea placeholder="enter message here" name="message"></textarea>
-                <input class="btn btn-large" type="submit" value="SUBMIT">
-              </form>
+              <?php if(isset($emailSent) && $emailSent == true) { ?>
+                <p class="info">Your email was sent. Huzzah!</p>
+            <?php } else { ?>
+            
+				<div class="desc">
+					<h2>Contact Us</h2>
+					
+					<p class="desc">Please use the contact form below to send us any information we may need. It is required you place an e-mail, although if you do not need us to respond feel free to input noreply@yoursite.com.</p>
+				</div>
+				
+				<div id="contact-form">
+					<?php if(isset($hasError) || isset($captchaError) ) { ?>
+                        <p class="alert">Error submitting the form</p>
+                    <?php } ?>
+				
+					<form id="contact-us" action="contact.php" method="post">
+						<div class="formblock">
+							<label>Your name</label>
+							<input type="text" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="requiredField" placeholder="Enter name here" />
+							<?php if($nameError != '') { ?>
+								<br /><span class="error"><?php echo $nameError;?></span> 
+							<?php } ?>
+						</div>
+                        
+						<div class="formblock">
+							<label>Your E-mail</label>
+							<input type="text" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="requiredField email" placeholder="Enter e-mail here" />
+							<?php if($emailError != '') { ?>
+								<br /><span class="error"><?php echo $emailError;?></span>
+							<?php } ?>
+						</div>
+                        
+						<div class="formblock">
+							<label>Your Message</label>
+							 <textarea name="comments" id="commentsText" class="requiredField" placeholder="Message:"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
+							<?php if($commentError != '') { ?>
+								<br /><span class="error"><?php echo $commentError;?></span> 
+							<?php } ?>
+						</div>
+                        
+							<input name="submit" type="submit" class="btn btn-large" value="Send us Mail!">
+							<input type="hidden" name="submitted" id="submitted" value="true" />
+					</form>			
+				</div>
+				
+			<?php } ?>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6">
               <h6>HTML5 DevConf 2014</h6>
@@ -865,77 +902,115 @@
     </div>
 
 
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>  
+ <script type="text/javascript">
+	<!--//--><![CDATA[//><!--
+	$(document).ready(function() {
+		$('form#contact-us').submit(function() {
+			$('form#contact-us .error').remove();
+			var hasError = false;
+			$('.requiredField').each(function() {
+				if($.trim($(this).val()) == '') {
+					var labelText = $(this).prev('label').text();
+					$(this).parent().append('<span class="error">Your forgot to enter your '+labelText+'.</span>');
+					$(this).addClass('inputError');
+					hasError = true;
+				} else if($(this).hasClass('email')) {
+					var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+					if(!emailReg.test($.trim($(this).val()))) {
+						var labelText = $(this).prev('label').text();
+						$(this).parent().append('<span class="error">Sorry! You\'ve entered an invalid '+labelText+'.</span>');
+						$(this).addClass('inputError');
+						hasError = true;
+					}
+				}
+			});
+			if(!hasError) {
+				var formInput = $(this).serialize();
+				$.post($(this).attr('action'),formInput, function(data){
+					$('form#contact-us').slideUp("fast", function() {				   
+						$(this).before('<p class="tick"><strong>Thanks!</strong> Your email has been delivered. Huzzah!</p>');
+					});
+				});
+			}
+			
+			return false;	
+		});
+	});
+	//-->!]]>
+</script>
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+<script type="text/javascript" src="js/jquery.typer.min.js"></script>
+<script type="text/javascript">
+  $(window).scroll(function() {
+    if ($( this).scrollTop() < $('#sessions').offset().top ) {
+      $('#c-navbar ul li').removeClass('active');
+    }
+    if ($(this).scrollTop() >= $('#sessions').offset().top-10){
+      $('#c-navbar ul li').removeClass('active');
+      $('#c-navbar ul li#c-sessions-nav').addClass('active');
+    }
+     if ($(this).scrollTop() >= $('#speakers').offset().top-10){
+      $('#c-navbar ul li').removeClass('active');
+      $('#c-navbar ul li#c-speakers-nav').addClass('active');
+    }
+     if ($(this).scrollTop() >= $('#schedule').offset().top-10){
+      $('#c-navbar ul li').removeClass('active');
+      $('#c-navbar ul li#c-schedule-nav').addClass('active');
+    }
+     if ($(this).scrollTop() >= $('#about').offset().top-10){
+      $('#c-navbar ul li').removeClass('active');
+      $('#c-navbar ul li#c-about-nav').addClass('active');
+    }
+     if ($(this).scrollTop() >= $('#contact').offset().top-10){
+      $('#c-navbar ul li').removeClass('active');
+      $('#c-navbar ul li#c-contact-nav').addClass('active');
+    }
+     if ($(this).scrollTop() >= $('#sponsors').offset().top-10){
+      $('#c-navbar ul li').removeClass('active');
+      $('#c-navbar ul li#c-sponsors-nav').addClass('active');
+    }
+  });
+</script>
+<script src="js/custom.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+  function initialize() {
+    var latlng = new google.maps.LatLng(9.988533333333333,76.30113333333334);
+    var myOptions = {
+      zoom: 14,
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    var myMarker = new google.maps.Marker({
+      position: latlng,
+      map: map,
+      title:"HTML5 DevConf"
+    });
+  }
+  $(document).ready(function(){
+    initialize();
+    $('#c-navbar ul li a').click(function(){
 
-    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script type="text/javascript" src="js/jquery.typer.min.js"></script>
-    <script type="text/javascript">
-      $(window).scroll(function() {
-        if ($( this).scrollTop() < $('#sessions').offset().top  ) {
-          $('#c-navbar ul li').removeClass('active');
-        }
-        if ($(this).scrollTop() >= $('#sessions').offset().top-10){
-          $('#c-navbar ul li').removeClass('active'); 
-          $('#c-navbar ul li#c-sessions-nav').addClass('active'); 
-        }
-         if ($(this).scrollTop() >= $('#speakers').offset().top-10){
-          $('#c-navbar ul li').removeClass('active'); 
-          $('#c-navbar ul li#c-speakers-nav').addClass('active'); 
-        }
-         if ($(this).scrollTop() >= $('#schedule').offset().top-10){
-          $('#c-navbar ul li').removeClass('active'); 
-          $('#c-navbar ul li#c-schedule-nav').addClass('active'); 
-        }
-         if ($(this).scrollTop() >= $('#about').offset().top-10){
-          $('#c-navbar ul li').removeClass('active'); 
-          $('#c-navbar ul li#c-about-nav').addClass('active'); 
-        }
-         if ($(this).scrollTop() >= $('#contact').offset().top-10){
-          $('#c-navbar ul li').removeClass('active'); 
-          $('#c-navbar ul li#c-contact-nav').addClass('active'); 
-        }
-         if ($(this).scrollTop() >= $('#sponsors').offset().top-10){
-          $('#c-navbar ul li').removeClass('active'); 
-          $('#c-navbar ul li#c-sponsors-nav').addClass('active'); 
-        }
-      });
-    </script>
-    <script src="js/custom.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript">
-      function initialize() {
-        var latlng = new google.maps.LatLng(9.988533333333333,76.30113333333334);
-        var myOptions = {
-          zoom: 14,
-          center: latlng,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-        var myMarker = new google.maps.Marker({
-          position: latlng,
-          map: map,
-          title:"HTML5 DevConf"
-        });
-      }
-      $(document).ready(function(){
-        initialize();
-        $('#c-navbar ul li a').click(function(){
+    });
+  });
+</script>
 
-        });
-      });
-    </script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-46056779-3', 'html5conf.in');
+    ga('send', 'pageview');
 
-        ga('create', 'UA-46056779-3', 'html5conf.in');
-        ga('send', 'pageview');
+</script>
 
-    </script>
+   
 
   </body>
 </html>
