@@ -83,6 +83,14 @@ label{
 	display: block;
 	margin-bottom: 0px;
 }
+.error{
+	display: block;
+	color: rgb(231, 76, 60);
+	margin-bottom: 5px;
+}
+.inputError{
+    border-color: rgb(235, 80, 85) !important;
+}
 .btn{
 	background: #e77572;
 	color: #fff;
