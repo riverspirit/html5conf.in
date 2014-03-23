@@ -75,7 +75,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
               <h4>HTML5 Developer Conference 2014</h4>
-              <p><b>The first ever HTML5/JS developer conference in Kerala is happening in Kochi on 12th and 13th April 2014.<b></p>
+              <p><b>The first ever HTML5/JS developer conference in Kerala is happening in Kochi on 12<sup>th</sup> and 13<sup>th</sup> April 2014.<b></p>
               <p>Oh, and the first 30 people to register will get a cool <b>t-shirt</b>!<sup>*</sup></p>
             </div>
           </div>
