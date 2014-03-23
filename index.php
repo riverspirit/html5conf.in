@@ -174,7 +174,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-0">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
-                          <img src="images/shwetank-dixit.jpg" alt="html5-devconf-speaker">
+                          <img src="images/shwetank-dixit.jpg" alt="shwetank-dixit">
                         </div>
                         <h4>Shwetank Dixit</h4>
                         <h6>Developer Evangelist</h6>
@@ -184,16 +184,16 @@
                           
                           <ul>
                             <li class="c-speaker-fb">
-                              <a href="#">facebook</a>
+                              <a href="https://www.facebook.com/shwetankdixit">facebook</a>
                             </li>
                             <li class="c-speaker-gp">
-                              <a href="#">google+</a>
+                              <a href="https://plus.google.com/117951516568096800242/">google+</a>
                             </li>
                             <li class="c-speaker-tw">
-                              <a href="#">twitter</a>
+                              <a href="https://twitter.com/shwetank">twitter</a>
                             </li>
                             <li class="c-speaker-in">
-                              <a href="#">linkedin</a>
+                              <a href="http://in.linkedin.com/pub/shwetank-dixit/2/a6/b43">linkedin</a>
                             </li>
                           </ul>   
                            
@@ -204,7 +204,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-1">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
-                          <img src="images/nick-desaulniers.jpg" alt="html5-devconf-speaker">
+                          <img src="images/nick-desaulniers.jpg" alt="nick-desaulniers">
                         </div>
                         <h4>Nick Desaulniers</h4>
                         <h6>ECMAScript Dermatologist</h6>
@@ -228,7 +228,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-2">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
-                          <img src="images/praseed-pai.jpg" alt="html5-devconf-speaker">
+                          <img src="images/praseed-pai.jpg" alt="praseed-pai">
                         </div>
                         <h4>Praseed Pai </h4>
                         <h6>Principal Consultant</h6>
@@ -238,13 +238,10 @@
                           
                           <ul>
                             <li class="c-speaker-fb">
-                              <a href="#">facebook</a>
-                            </li>
-                            <li class="c-speaker-gp">
-                              <a href="#">google+</a>
+                              <a href="https://www.facebook.com/praseedpai.kt">facebook</a>
                             </li>
                             <li class="c-speaker-tw">
-                              <a href="#">twitter</a>
+                              <a href="https://twitter.com/praseed3point14">twitter</a>
                             </li>
                             <li class="c-speaker-in">
                               <a href="#">linkedin</a>
@@ -258,7 +255,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-3">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
-                          <img src="images/speaker-placeholder.jpg" alt="html5-devconf-speaker">
+                          <img src="images/speaker-placeholder.jpg" alt="shine-xavier">
                         </div>
                         <h4>Shine Xavier</h4>
                         <h6>Technical Architect</h6>
@@ -268,16 +265,13 @@
                           
                           <ul>
                             <li class="c-speaker-fb">
-                              <a href="#">facebook</a>
+                              <a href="https://www.facebook.com/shine.xavier.98">facebook</a>
                             </li>
                             <li class="c-speaker-gp">
-                              <a href="#">google+</a>
-                            </li>
-                            <li class="c-speaker-tw">
-                              <a href="#">twitter</a>
+                              <a href="https://plus.google.com/116067995930414489189/">google+</a>
                             </li>
                             <li class="c-speaker-in">
-                              <a href="#">linkedin</a>
+                              <a href="http://in.linkedin.com/in/shinexavier">linkedin</a>
                             </li>
                           </ul>   
                            
