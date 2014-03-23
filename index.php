@@ -133,7 +133,7 @@
             <div class="col-lg-3 col-md-3 col-xs-6">
               <img src="images/boot-web.png" alt="html5-devconf-session-logo">
               <h4>The Convergence of the Browser and Operating System</h4>
-              <p>Nick Desaulniers talking about how the browser and the operating system are becoming indistinguishable to the end user.</p>
+              <p>Nick Desaulniers talking about how the browser and the operating system are becoming indistinguishable to the end user</p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-6">
               <img src="images/web-graphics.png" alt="html5-devconf-session-logo">
@@ -148,7 +148,7 @@
             <div class="col-lg-3 col-md-3 col-xs-6">
               <img src="images/js-robotics-0.png" alt="html5-devconf-session-logo">
               <h4>Javascript Robotics</h4>
-              <p>Praveen Sridhar talking about how web technologies like WebSockets & WebRTC can be used to extend the limitless possibilities of Open Hardware.</p>
+              <p>Praveen Sridhar talking about how web technologies like WebSockets &amp; WebRTC can be used to extend the limitless possibilities of Open Hardware.</p>
             </div>
             
           </div>
