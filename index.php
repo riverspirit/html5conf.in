@@ -131,17 +131,17 @@
             <div class="col-lg-3 col-md-3 col-xs-6">
               <img src="images/web-graphics.png" alt="html5-devconf-session-logo">
               <h4>The future of Web Graphics</h4>
-              <p>Shwetank Dixit<br>(Developer Evangelist, Opera)</p>
+              <p>Shwetank Dixit talking about the future of Web graphics. He'll be discussing advanced techniques and technologies related to CSS, SVG, Canvas, WebGL etc</p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-6">
-              <img src="images/emberjs-logo.png" alt="html5-devconf-session-logo">
+              <img src="images/ember.png" alt="html5-devconf-session-logo">
               <h4> EmberJs</h4>
-              <p>Syed Aqueel Haider</p>
+              <p>Syed Aqueel Haider talks about EmberJS. How Ember.js handles client side MVC? What do we gain from using it?  Any gotchas to watch out for etc.</p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-6">
               <img src="images/js-robotics-0.png" alt="html5-devconf-session-logo">
-              <h4>Firefox OS</h4>
-              <p>Praveen Sridhar</p>
+              <h4>Javascript Robotics</h4>
+              <p>Praveen Sridhar talking about how web technologies like WebSockets & WebRTC can be used to extend the limitless possibilities of Open Hardware.</p>
             </div>
             
           </div>

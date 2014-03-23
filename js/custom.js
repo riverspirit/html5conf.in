@@ -146,14 +146,14 @@ $(document).ready(function () {
                 + '</div>'
             + '</div>';
 
-    // Syed
+    // Haider
     speakers[5] = '<div class="c-speaker-each text-center">'
                 + '<div class="c-speaker-img-wrap">'
                     + '<img alt="html5-devconf-speaker" src="images/speaker-placeholder.jpg">'
                 + '</div>'
                 + '<h4>Syed Aqueel Haider</h4>'
-                + '<h6>Principal Consultant</h6>'
-                + '<h6>Godel-Number Consulting</h6>'
+                + '<h6>Frontend Engineer</h6>'
+                + '<h6>peel-works</h6>'
 
                 + '<div class="c-speaker-social-icons">'
 
