@@ -99,7 +99,7 @@
               <div class="c-home-area-icons-wrap">
                 <img src="images/loc-icon.png" alt="html5-devconf-icon">
               </div>
-              <h5>IMA House, Kaloor</h5>
+              <h5>XIME, Kalamassery</h5>
               <h5>Kochi</h5>
             </div>
           </div>
@@ -988,9 +988,9 @@
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
   function initialize() {
-    var latlng = new google.maps.LatLng(9.988533333333333,76.30113333333334);
+    var latlng = new google.maps.LatLng(10.055318,76.348153);
     var myOptions = {
-      zoom: 14,
+      zoom: 15,
       center: latlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
