@@ -730,39 +730,39 @@
           <div class="row">
             <div class="col-lg-12">
               <h2>Sponsors</h2>
-              <h5>Many thanks to all those who are supporting and backing us up</h5>
+              <h5>Thanks a lot to all those who are supporting and backing us up</h5>
             </div>
           </div>
           <div class="row c-sponsor-row-each">
-            <div class="col-md-3">
+            <div class="col-md-2">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/mozilla_wordmark.png" alt="html5-devconf-sponsor">
+                  <img src="images/mozilla_wordmark.png" alt="mozilla">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-6">
+                  <img src="images/Opera-logo.png" alt="Opera">
                 </div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/Opera-logo.png" alt="html5-devconf-sponsor">
+                  <img src="images/toobler.png" alt="toobler">
                 </div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/toobler.jpg" alt="html5-devconf-sponsor">
+                  <img src="images/logo-M.png" alt="codeyssus">
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/logo-M.png" alt="html5-devconf-sponsor">
-                </div>
-              </div>
-            </div>
-            <div class="col-md-12">
+            <div class="col-md-2">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
                   <img src="images/dm_logo.png" alt="html5-devconf-sponsor">
