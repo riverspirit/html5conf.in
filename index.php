@@ -630,7 +630,7 @@
           
           <div class="row">
             <div class="col-lg-12">
-              <h2>Contact</h2>
+              <h2>Contact Us</h2>
               <h5>Questions about the event? We are more than happy to help!</h5>
             </div>
           </div>
@@ -642,7 +642,7 @@
             <?php } else { ?>
             
 				<div class="desc">
-					<h2>Contact Us</h2>
+					<h6>Contact Form</h6>
 					
 					<p class="desc">Please use the contact form below to send us any information we may need. It is required you place an e-mail, although if you do not need us to respond feel free to input noreply@yoursite.com.</p>
 				</div>
