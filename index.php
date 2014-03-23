@@ -69,7 +69,8 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
               <h4>HTML5 Developer Conference 2014</h4>
-              <p>The first ever HTML5/JS developer conference in Kerala is happening in Kochi on 12th and 13th April 2014.</p>
+              <p><b>The first ever HTML5/JS developer conference in Kerala is happening in Kochi on 12th and 13th April 2014.<b></p>
+              <p>Oh, and the first 30 people to register will get a cool <b>t-shirt</b>!<sup>*</sup></p>
             </div>
           </div>
 
@@ -857,6 +858,8 @@
                 <a class="c-footer-logo smoothScroll" href="#home"><img src="images/logo.png"></a>
                 <p>HTML5 Dev Conf 2014 is the first of its kind event taking place in Kerala organized by a non-profit group aimed to bring together the HTML5/JS enthusiasts in South India together to connect and share.</p>
                 <p>&copy; 2014. All Rights Reserved.</p>
+
+                <p><i>* Free t-shirts available until stocks last. If your company would like to sponsor t-shirts, please mail hello@html5onf.in</i></p>
               </p>
               <p class="pull-right c-to-top-button">
                 <a href="#home" class="smoothScroll">Top <img src="images/to-top-button_40.png"></a>
