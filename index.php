@@ -7,6 +7,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,700,900' rel='stylesheet' type='text/css'>
+
+  <meta property="og:site_name" content="HTML5 Developer Conference 2014">
+  <meta property="og:title" content="HTML5 Developer Conference 2014">
+  <meta property="og:url" content="https://html5conf.in">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="images/HTML5-Developer-Conference-2014.jpg">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
