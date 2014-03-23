@@ -694,8 +694,8 @@
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6">
               <h6>The Venue</h6>
-                <p class="c-no-margin-p">IMA House</p>
-                <p class="c-no-margin-p">Kaloor</p>
+                <p class="c-no-margin-p">Xavier Institute of Management &amp; Entrepreneurship (XIME)</p>
+                <p class="c-no-margin-p">HMT PO, Kalamassery</p>
                 <p class="c-no-margin-p">Kochi</p>
                 <p>KL, India</p>
 
