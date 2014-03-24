@@ -140,7 +140,7 @@ label{
 }
 .c-home-area{
 	margin-top: 10px;
-	background: url(../images/main-bg.jpg) no-repeat;
+	background: url(../images/greeter/main-bg.jpg) no-repeat;
 	height: 500px;
 	background-size: 100%;
 	color: #fff;
@@ -582,7 +582,7 @@ label{
 	}
 	.c-home-area{
 		margin-top: 62px;
-		background: url(../images/main-bg.jpg) no-repeat;
+		background: url(../images/greeter/main-bg.jpg) no-repeat;
 		height: 400px;
 		background-size: 100%;
 	}
