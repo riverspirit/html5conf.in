@@ -293,7 +293,7 @@
           <div class="row">
             
               <h2>Schedule</h2>
-              <h5>Puting together the best for you in order</h5>
+              <h5>Putting together the best for you in order</h5>
             
           </div>
 
