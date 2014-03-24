@@ -8,7 +8,7 @@
     <link href="css/styles.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,700,900' rel='stylesheet' type='text/css'>
     <link rel="image_src" href="images/HTML5-Developer-Conference-2014.jpg"/>
-
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <meta property="og:site_name" content="HTML5 Developer Conference 2014">
     <meta property="og:title" content="HTML5 Developer Conference 2014">
     <meta property="og:url" content="http://html5conf.in">
