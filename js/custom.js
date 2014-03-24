@@ -272,7 +272,7 @@ $(document).ready(function () {
     $('#masthead').typeTo('html');
 
     setTimeout(function () {
-        $('#masthead').typeTo('#html5devconf');
+        $('#masthead').typeTo('#html5defcon');
     }, 2000);
 });
 
