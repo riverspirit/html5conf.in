@@ -576,7 +576,7 @@
 
           <div class="row">
             <div class="col-lg-12">
-              <p>A non-profit association of front end enthusiasts in Kerala is bringing you the first HTML5/JS Developer Conference in the region. Handpicked speakers are invited to take sessions on interesting topics. A nominal registration fee is implied to help with the organization cost as well as to filter out no-shows. Special discounted rates are available for students. Contact us for free media passes.</p>
+              <p>A non-profit association of front end enthusiasts in Kerala is bringing you the first HTML5/JS Developer Conference in the region. Handpicked speakers are invited to take sessions on interesting topics. A nominal registration fee is implied to help with the organization cost as well as to filter out no-shows. Special discounted rates are available for students. Free entry is available for financially under-privileged students. To avail entry under this scheme, please contact us at hello@html5conf.in (Information regarding those who avail the free passes will be kept private). Free media passes are also available, contact us for details.</p>
             </div>
           </div>
 
@@ -588,7 +588,7 @@
                   </div>
                   <div class="col-md-10 col-sm-10 col-xs-10">
                     <h6>Learn some foo</h6> <!-- Terminal/IDE icon -->
-                    <p>We are inviting the very best people to talk</p>
+                    <p>We are inviting the very best people to talk about the things they are best at. Learn about new technologies and practices.</p>
                   </div>
                 </div>
             </div>
@@ -598,8 +598,8 @@
                     <img src="images/about-icon-02_11.png">
                   </div>
                   <div class="col-md-10 col-sm-10 col-xs-10">
-                    <h6>Share ideas</h6> <!-- An icon to show networking b/w people -->
-                    <p>HTML5 Dev Conf 2014 is a great venue to meetup with like minded geeks and share ideas and tech gossip.</p>
+                    <h6>First time in God's own country</h6> <!-- An icon to show networking b/w people -->
+                    <p>HTML5 Dev Conf 2014 is the first of its kind event happening it Kerala and at a price that beats any tech conference happened anywhere in the world. Attendees from neighbouring states are also very much welcome :)</p>
                   </div>
                 </div>
             </div>
@@ -613,8 +613,8 @@
                     <img src="images/about-icon-03_11.png">
                   </div>
                   <div class="col-md-10 col-sm-10 col-xs-10">
-                    <h6>Secure a Great deal</h6>
-                    <p>This whole project can't succeed without reasonable amount of early adopters, so if you want to see it happen show that share button who's the baws!I think we can all agree that app marketplaces suck.</p>
+                    <h6>Nothing beats free swags!</h6>
+                    <p>We have cool goodies and swags for you. Swags can incredibly boost your geek street creds. On the side, we have also provide food and refreshment at the venue, so please don't pack your tiffin.</p>
                   </div>
                 </div>
             </div>
@@ -624,8 +624,8 @@
                     <img src="images/about-icon-04_11.png">
                   </div>
                   <div class="col-md-10 col-sm-10 col-xs-10">
-                    <h6>Share your ideas</h6>
-                    <p>This whole project can't succeed without reasonable amount of early adopters, so if you want to see it happen show that share button who's the baws!I think we can all agree that app marketplaces suck.</p>
+                    <h6>Network with geeks</h6>
+                    <p>HTML5 Dev Conf 2014 is a great opportunity to meetup with like minded geeks and share ideas and tech gossip.</p>
                   </div>
                 </div>
             </div>
@@ -700,7 +700,7 @@
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6">
               <h6>HTML5 DevConf 2014</h6>
-              <p>For the first time ever, a web developer conference is coming to Kerala. Attendees from neighboring states are also most welcome to attend. Organized by an independent group of peers, HTML5 Dev Conf is a non profit event, but a nominal registration fee is put in place for controlling traffic and avoiding no-shows. Special discounted rates are available for students.</p>
+              <p>For the first time ever, a web developer conference is coming to Kerala. Attendees from neighbouring states are also most welcome to attend. Organized by an independent group of peers, HTML5 Dev Conf is a non profit event, but a nominal registration fee is put in place for controlling traffic and avoiding no-shows. Special discounted rates are available for students.</p>
               <h6 class="c-contact-below-h6">Contact Info</h6>
               <p><a href="mailto:hello@html5conf.in">hello@html5conf.in</a></p>
               <p class="c-no-margin-p"><i>(+91)</i> 944 779 6617</p>
@@ -879,8 +879,8 @@
                 <a class="c-footer-logo smoothScroll" href="#home"><img src="images/logo.png"></a>
                 <p>HTML5 Dev Conf 2014 is the first of its kind event taking place in Kerala organized by a non-profit group aimed to bring together the HTML5/JS enthusiasts in South India together to connect and share.</p>
                 <p>&copy; 2014. All Rights Reserved.</p>
-
-                <p><i>* Free t-shirts available until stocks last. If your company would like to sponsor t-shirts, please mail hello@html5onf.in</i></p>
+                <p>&nbsp;</p>
+                <p>Terms and conditions: <i>* Free t-shirts available until stocks last. If your company would like to sponsor t-shirts, please mail hello@html5onf.in. The organizers reserve the right to make changes to schedule and plans without prior notice. If the event is cancelled for any reason, your registration fee will be refunded.</i></p>
               </p>
               <p class="pull-right c-to-top-button">
                 <a href="#home" class="smoothScroll">Top <img src="images/to-top-button_40.png"></a>
