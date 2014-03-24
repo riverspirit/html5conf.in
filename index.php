@@ -7,12 +7,13 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,700,900' rel='stylesheet' type='text/css'>
+    <link rel="image_src" href="images/HTML5-Developer-Conference-2014.jpg"/>
 
-  <meta property="og:site_name" content="HTML5 Developer Conference 2014">
-  <meta property="og:title" content="HTML5 Developer Conference 2014">
-  <meta property="og:url" content="https://html5conf.in">
-  <meta property="og:description" content="">
-  <meta property="og:image" content="images/HTML5-Developer-Conference-2014.jpg">
+    <meta property="og:site_name" content="HTML5 Developer Conference 2014">
+    <meta property="og:title" content="HTML5 Developer Conference 2014">
+    <meta property="og:url" content="http://html5conf.in">
+    <meta property="og:description" content="The first ever HTML5/JS developer conference in Kerala is happening in Kochi on 12th and 13th April 2014. Sponsored organizations including Mozilla and Opera, the event features an array of eminent speakers in the field.">
+    <meta property="og:image" content="http://html5conf.in/images/HTML5-Developer-Conference-2014.jpg">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -125,7 +126,7 @@
           <div class="row">
               <div class="col-lg-12">
                 <h2>Sessions</h2>
-                <h5>Snapshot of the sessions to be covered</h5>
+                <h5>Snapshot of some of the sessions to be covered</h5>
               </div>
           </div>
 
@@ -183,17 +184,8 @@
                         <div class="c-speaker-social-icons">
                           
                           <ul>
-                            <li class="c-speaker-fb">
-                              <a href="#">facebook</a>
-                            </li>
-                            <li class="c-speaker-gp">
-                              <a href="#">google+</a>
-                            </li>
                             <li class="c-speaker-tw">
-                              <a href="#">twitter</a>
-                            </li>
-                            <li class="c-speaker-in">
-                              <a href="#">linkedin</a>
+                              <a href="http://twitter.com/shwetank">twitter</a>
                             </li>
                           </ul>   
                            
@@ -299,7 +291,7 @@
           <div class="row">
             
               <h2>Schedule</h2>
-              <h5>Puting together the best for you in order</h5>
+              <h5>Putting together the best for you in order</h5>
             
           </div>
 
@@ -329,10 +321,10 @@
                           10:00am
                         </p>
                         <p class="c-schedule-session-name">
-                          Shwetank Dixit
+                          The future of Web Graphics
                         </p>
                         <p class="c-schedule-name">
-                          The future of Web Graphics
+                          Shwetank Dixit
                         </p>
                       </div>
                     </div>
@@ -363,10 +355,10 @@
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          12:00pm
+                          11:00pm
                         </p>
                         <p class="c-schedule-session-name">
-                           Firefox OS
+                           Firefox OS - The mobile OS for web developers.
                         </p>
                         <p class="c-schedule-name">
                           Praveen Sridhar 
@@ -375,11 +367,11 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/emberjs-logo.png" alt="html5-devconf-schedule-icon">
+                        <img src="images/haider.jpg" alt="html5-devconf-schedule-icon">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          12:30pm
+                          11:00am
                         </p>
                         <p class="c-schedule-session-name">
                            EmberJs
@@ -400,7 +392,7 @@
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          02:00pm
+                          12:00pm
                         </p>
                         <p class="c-schedule-session-name">
                           Meteor.js
@@ -418,7 +410,7 @@
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          02:30pm
+                          12:00pm
                         </p>
                         <p class="c-schedule-session-name">
                           Prototyping in Style
@@ -440,30 +432,29 @@
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          04:00pm
+                          01:00pm
                         </p>
                         <p class="c-schedule-session-name">
-                          Coffee Break
+                          Lunch
                         </p>
                        
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/shwetank-dixit.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/schedule-icon-03_07.png" alt="html5-devconf-schedule-icon">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          03:00pm
+                          01:00pm
                         </p>
                         <p class="c-schedule-session-name">
-                           Making the Web work Offline
+                          Lunch
                         </p>
-                        <p class="c-schedule-name">
-                          Shwetank Dixit
-                        </p>
+
                       </div>
                     </div>
+
 
                 </div>
 
@@ -475,7 +466,7 @@
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          05:00pm
+                          02:30pm
                         </p>
                         <p class="c-schedule-session-name">
                           Mocha
@@ -485,24 +476,23 @@
                         </p>
                       </div>
                     </div>
-                    
+
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/praveen-sridhar.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/shwetank-dixit.jpg" alt="html5-devconf-schedule-icon">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          05:00pm
+                          02:15pm
                         </p>
                         <p class="c-schedule-session-name">
-                          Javascript Robotics
+                           Making the Web work Offline
                         </p>
                         <p class="c-schedule-name">
-                          Praveen Sridhar
+                          Shwetank Dixit
                         </p>
                       </div>
                     </div>
-              
               </div>
 
               <div class="row c-schedule-row-each">
@@ -513,7 +503,7 @@
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          05:00pm
+                          04:00pm
                         </p>
                         <p class="c-schedule-session-name">
                           Javascript: "Good Parts" in action
@@ -530,7 +520,7 @@
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          05:00pm
+                          03:05pm
                         </p>
                         <p class="c-schedule-session-name">
                           Modern Javascript
@@ -542,6 +532,30 @@
                     </div>
               
               </div>
+
+                    <div class="row c-schedule-row-each">
+
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each schedule-empty-col">
+                        <!-- Hollow man speaking about his invisible chimpanzee -->
+                      </div>
+
+                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
+                           <div class="c-schedule-pic">
+                             <img src="images/praveen-sridhar.jpg" alt="html5-devconf-schedule-icon">
+                           </div>
+                           <div class="c-schedule-details">
+                             <p class="c-schedule-time">
+                               04:00pm
+                             </p>
+                             <p class="c-schedule-session-name">
+                               Javascript Robotics
+                             </p>
+                             <p class="c-schedule-name">
+                               Praveen Sridhar
+                             </p>
+                           </div>
+                         </div>
+                    </div>
           
 
         </div>
@@ -737,35 +751,35 @@
             <div class="col-md-3">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/mozilla_wordmark.png" alt="html5-devconf-sponsor">
+                  <img src="images/mozilla_wordmark.png" alt="html5-devconf-sponsor" class="html5-devconf-sponsor-logo">
                 </div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/Opera-logo.png" alt="html5-devconf-sponsor">
+                  <img src="images/Opera-logo.png" alt="html5-devconf-sponsor" class="html5-devconf-sponsor-logo">
                 </div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/toobler.jpg" alt="html5-devconf-sponsor">
+                  <img src="images/toobler.jpg" alt="html5-devconf-sponsor" class="html5-devconf-sponsor-logo">
                 </div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/logo-M.png" alt="html5-devconf-sponsor">
+                  <img src="images/logo-M.png" alt="html5-devconf-sponsor" class="html5-devconf-sponsor-logo">
                 </div>
               </div>
             </div>
             <div class="col-md-12">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/dm_logo.png" alt="html5-devconf-sponsor">
+                  <img src="images/dm_logo.png" alt="html5-devconf-sponsor" class="html5-devconf-sponsor-logo">
                 </div>
                 
               </div>
@@ -912,7 +926,7 @@
     </div>
 
 
- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>  
+ <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
  <script type="text/javascript">
 	<!--//--><![CDATA[//><!--
 	$(document).ready(function() {
@@ -949,7 +963,6 @@
 	});
 	//-->!]]>
 </script>
-<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/smoothscroll.js"></script>
 <script type="text/javascript" src="js/jquery.typer.min.js"></script>

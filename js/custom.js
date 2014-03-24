@@ -13,17 +13,8 @@ $(document).ready(function () {
                 + '<div class="c-speaker-social-icons">'
 
                     + '<ul>'
-                        + '<li class="c-speaker-fb">'
-                            + '<a href="#">facebook</a>'
-                        + '</li>'
-                        + '<li class="c-speaker-gp">'
-                            + '<a href="#">google+</a>'
-                        + '</li>'
                         + '<li class="c-speaker-tw">'
-                            + '<a href="#">twitter</a>'
-                        + '</li>'
-                        + '<li class="c-speaker-in">'
-                            + '<a href="#">linkedin</a>'
+                            + '<a href="http://twitter.com/shwetank">twitter</a>'
                         + '</li>'
                     + '</ul>'
 
@@ -42,17 +33,11 @@ $(document).ready(function () {
                 + '<div class="c-speaker-social-icons">'
 
                     + '<ul>'
-                        + '<li class="c-speaker-fb">'
-                            + '<a href="#">facebook</a>'
-                        + '</li>'
-                        + '<li class="c-speaker-gp">'
-                            + '<a href="#">google+</a>'
-                        + '</li>'
                         + '<li class="c-speaker-tw">'
-                            + '<a href="#">twitter</a>'
+                            + '<a href="https://twitter.com/LostOracle">twitter</a>'
                         + '</li>'
                         + '<li class="c-speaker-in">'
-                            + '<a href="#">linkedin</a>'
+                            + '<a href="http://www.linkedin.com/profile/view?id=119943281">linkedin</a>'
                         + '</li>'
                     + '</ul>'
 
@@ -149,7 +134,7 @@ $(document).ready(function () {
     // Haider
     speakers[5] = '<div class="c-speaker-each text-center">'
                 + '<div class="c-speaker-img-wrap">'
-                    + '<img alt="html5-devconf-speaker" src="images/speaker-placeholder.jpg">'
+                    + '<img alt="html5-devconf-speaker" src="images/haider.jpg">'
                 + '</div>'
                 + '<h4>Syed Aqueel Haider</h4>'
                 + '<h6>Frontend Engineer</h6>'
@@ -246,16 +231,16 @@ $(document).ready(function () {
 
                     + '<ul>'
                         + '<li class="c-speaker-fb">'
-                            + '<a href="#">facebook</a>'
+                            + '<a href="https://www.facebook.com/praveenshridhar">facebook</a>'
                         + '</li>'
                         + '<li class="c-speaker-gp">'
-                            + '<a href="#">google+</a>'
+                            + '<a href="https://plus.google.com/+PraveenSridhar13">google+</a>'
                         + '</li>'
                         + '<li class="c-speaker-tw">'
-                            + '<a href="#">twitter</a>'
+                            + '<a href="http://www.linkedin.com/profile/view?id=229161065">twitter</a>'
                         + '</li>'
                         + '<li class="c-speaker-in">'
-                            + '<a href="#">linkedin</a>'
+                            + '<a href="http://www.linkedin.com/profile/view?id=229161065">linkedin</a>'
                         + '</li>'
                     + '</ul>'
 
@@ -277,11 +262,8 @@ $(document).ready(function () {
             $('#speaker-info-' + stage).fadeIn();
             stage++;
         });
-    }, 3000);
+    }, 4000);
 
-    var credits_info = {
-        'arun': 'Arun Haridas <a href="http://google.com>google</a>"'
-    };
     $('.credits-name-link').mouseenter(function() {
         var info_text = $(this).data('mouseover');
         $('#selected-person-info-contain').typeTo(info_text);
