@@ -83,21 +83,21 @@
           <div class="row">
             <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
               <div class="c-home-area-icons-wrap">
-                <img src="images/cal-icon.png" alt="html5-devconf-icon">
+                <img src="images/greeter/cal-icon.png" alt="html5-devconf-icon">
               </div>
               <h5>April 12-13</h5>
               <h5>2014</h5>
             </div>
             <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
               <div class="c-home-area-icons-wrap">
-                <img src="images/time-icon.png" alt="html5-devconf-icon">
+                <img src="images/greeter/time-icon.png" alt="html5-devconf-icon">
               </div>
               <h5>0900 - 1700</h5>
               <h5>IST</h5>
             </div>
             <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
               <div class="c-home-area-icons-wrap">
-                <img src="images/loc-icon.png" alt="html5-devconf-icon">
+                <img src="images/greeter/loc-icon.png" alt="html5-devconf-icon">
               </div>
               <h5>XIME, Kalamassery</h5>
               <h5>Kochi</h5>
@@ -131,22 +131,22 @@
 
           <div class="row">
             <div class="col-lg-3 col-md-3 col-xs-6">
-              <img src="images/boot-web.png" alt="html5-devconf-session-logo">
+              <img src="images/sessions/boot-web.png" alt="html5-devconf-session-logo">
               <h4>The Convergence of the Browser and Operating System</h4>
               <p>Nick Desaulniers talking about how the browser and the operating system are becoming indistinguishable to the end user</p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-6">
-              <img src="images/web-graphics.png" alt="html5-devconf-session-logo">
+              <img src="images/sessions/web-graphics.png" alt="html5-devconf-session-logo">
               <h4>The future of Web Graphics</h4>
               <p>Shwetank Dixit talking about the future of Web graphics. He'll be discussing advanced techniques and technologies related to CSS, SVG, Canvas, WebGL etc</p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-6">
-              <img src="images/ember.png" alt="html5-devconf-session-logo">
+              <img src="images/sessions/ember.png" alt="html5-devconf-session-logo">
               <h4> EmberJs</h4>
               <p>Syed Aqueel Haider talks about EmberJS. How Ember.js handles client side MVC? What do we gain from using it?  Any gotchas to watch out for etc.</p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-6">
-              <img src="images/js-robotics-0.png" alt="html5-devconf-session-logo">
+              <img src="images/sessions/js-robotics-0.png" alt="html5-devconf-session-logo">
               <h4>Javascript Robotics</h4>
               <p>Praveen Sridhar talking about how web technologies like WebSockets &amp; WebRTC can be used to extend the limitless possibilities of Open Hardware.</p>
             </div>
@@ -174,7 +174,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-0">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
-                          <img src="images/shwetank-dixit.jpg" alt="shwetank-dixit">
+                          <img src="images/speakers/shwetank-dixit.jpg" alt="shwetank-dixit">
                         </div>
                         <h4>Shwetank Dixit</h4>
                         <h6>Developer Evangelist</h6>
@@ -204,7 +204,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-1">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
-                          <img src="images/nick-desaulniers.jpg" alt="nick-desaulniers">
+                          <img src="images/speakers/nick-desaulniers.jpg" alt="nick-desaulniers">
                         </div>
                         <h4>Nick Desaulniers</h4>
                         <h6>ECMAScript Dermatologist</h6>
@@ -228,7 +228,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-2">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
-                          <img src="images/praseed-pai.jpg" alt="praseed-pai">
+                          <img src="images/speakers/praseed-pai.jpg" alt="praseed-pai">
                         </div>
                         <h4>Praseed Pai </h4>
                         <h6>Principal Consultant</h6>
@@ -255,7 +255,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="speaker-info-3">
                       <div class="c-speaker-each text-center">
                         <div class="c-speaker-img-wrap">
-                          <img src="images/speaker-placeholder.jpg" alt="shine-xavier">
+                          <img src="images/speakers/speaker-placeholder.jpg" alt="shine-xavier">
                         </div>
                         <h4>Shine Xavier</h4>
                         <h6>Technical Architect</h6>
@@ -316,7 +316,7 @@
               
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/shwetank-dixit.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/speakers/shwetank-dixit.jpg" alt="shwetank-dixit">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
@@ -333,7 +333,7 @@
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/nick-desaulniers.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/speakers/nick-desaulniers.jpg" alt="nick-desaulniers">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
@@ -353,7 +353,7 @@
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/praveen-sridhar.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/speakers/praveen-sridhar.jpg" alt="praveen-sridhar">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
@@ -390,7 +390,7 @@
                   <div class="row c-schedule-row-each">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/ashwin-krishnan.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/speakers/ashwin-krishnan.jpg" alt="ashwin-krishnan">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
@@ -408,7 +408,7 @@
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/rahul-ramesh.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/speakers/rahul-ramesh.jpg" alt="rahul-ramesh">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
@@ -444,7 +444,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/shwetank-dixit.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/speakers/shwetank-dixit.jpg" alt="shwetank-dixit">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
@@ -482,7 +482,7 @@
                     
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/praveen-sridhar.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/speakers/praveen-sridhar.jpg" alt="praveen-sridhar">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
@@ -520,7 +520,7 @@
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/praseed-pai.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/speakers/praseed-pai.jpg" alt="praseed-pai">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
@@ -564,7 +564,7 @@
             <div class="col-md-6 col-sm-6 col-xs-6 c-about-point-wrap">
                 <div class="row">
                   <div class="col-md-2 col-sm-2 col-xs-2 c-about-point-icon">
-                    <img src="images/about-icon-01_11.png">
+                    <img src="images/about-page/about-icon-01_11.png">
                   </div>
                   <div class="col-md-10 col-sm-10 col-xs-10">
                     <h6>Learn some foo</h6> <!-- Terminal/IDE icon -->
@@ -575,7 +575,7 @@
              <div class="col-md-6 col-sm-6 col-xs-6 c-about-point-wrap">
                 <div class="row">
                   <div class="col-md-2 col-sm-2 col-xs-2 c-about-point-icon">
-                    <img src="images/about-icon-02_11.png">
+                    <img src="images/about-page/about-icon-02_11.png">
                   </div>
                   <div class="col-md-10 col-sm-10 col-xs-10">
                     <h6>Share ideas</h6> <!-- An icon to show networking b/w people -->
@@ -590,7 +590,7 @@
             <div class="col-md-6 col-sm-6 col-xs-6 c-about-point-wrap">
                 <div class="row">
                   <div class="col-md-2 col-sm-2 col-xs-2 c-about-point-icon">
-                    <img src="images/about-icon-03_11.png">
+                    <img src="images/about-page/about-icon-03_11.png">
                   </div>
                   <div class="col-md-10 col-sm-10 col-xs-10">
                     <h6>Secure a Great deal</h6>
@@ -601,7 +601,7 @@
              <div class="col-md-6 col-sm-6 col-xs-6 c-about-point-wrap">
                 <div class="row">
                   <div class="col-md-2 col-sm-2 col-xs-2 c-about-point-icon">
-                    <img src="images/about-icon-04_11.png">
+                    <img src="images/about-page/about-icon-04_11.png">
                   </div>
                   <div class="col-md-10 col-sm-10 col-xs-10">
                     <h6>Share your ideas</h6>
@@ -731,35 +731,35 @@
             <div class="col-md-2">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/mozilla_wordmark.png" alt="mozilla">
+                  <img src="images/sponsors/mozilla_wordmark.png" alt="mozilla">
                 </div>
               </div>
             </div>
             <div class="col-md-2">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/Opera-logo.png" alt="Opera">
+                  <img src="images/sponsors/Opera-logo.png" alt="Opera">
                 </div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/toobler.png" alt="toobler">
+                  <img src="images/sponsors/toobler.png" alt="toobler">
                 </div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/logo-M.png" alt="codeyssus">
+                  <img src="images/sponsors/logo-M.png" alt="codeyssus">
                 </div>
               </div>
             </div>
             <div class="col-md-2">
               <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6">
-                  <img src="images/dm_logo.png" alt="html5-devconf-sponsor">
+                  <img src="images/sponsors/dm_logo.png" alt="html5-devconf-sponsor">
                 </div>
                 
               </div>
