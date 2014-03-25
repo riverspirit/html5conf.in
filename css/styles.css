@@ -854,7 +854,14 @@ label{
 		height: 40px;
 	}
 
-	.c-speaker-img-wrap{
-		display: none;
+	.c-speaker-img-wrap img{
+
+		border-radius: 50%;
+
+	}
+	.c-speaker-img-wrap {
+		width: auto;
+		height: auto;
+
 	}
 }
