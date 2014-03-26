@@ -856,6 +856,10 @@
 
                               <a href="https://www.facebook.com/divine.shine" title="Shine Nelson" class="credits-name-link" data-mouseover="Shine Nelson" id="info-shine">
                                   <img src="images/credits/shine.jpg" alt="Shine Nelson" /></a>
+                              <a href="https://www.facebook.com/sirajul.11" title="Sirajul Muneer" class="credits-name-link" data-mouseover="Shine Nelson" id="info-shine">
+                                  <img src="images/credits/siraj.jpg" alt="Sirajul Muneer" /></a>
+                              <a href="https://www.facebook.com/blazingbinzzz" title="Binoy Balu" class="credits-name-link" data-mouseover="Binoy Balu" id="info-shine">
+                                  <img src="images/credits/binoy.jpg" alt="Binoy Balu" /></a>
                           </p>
 
                           <p class="selected-person-info-contain" id="selected-person-info-contain"></p>
