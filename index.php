@@ -100,7 +100,7 @@
               <div class="c-home-area-icons-wrap">
                 <img src="images/loc-icon.png" alt="html5-devconf-icon">
               </div>
-              <h5>IMA House, Kaloor</h5>
+              <h5>XIME, Kalamassery</h5>
               <h5>Kochi</h5>
             </div>
           </div>
@@ -656,7 +656,7 @@
             <?php } else { ?>
             
 				<div class="desc">
-					<h2>Contact Us</h2>
+					<h6>Contact Form</h6>
 					
 					<p class="desc">Please use the contact form below to send us any information we may need. It is required you place an e-mail, although if you do not need us to respond feel free to input noreply@yoursite.com.</p>
 				</div>
@@ -708,8 +708,8 @@
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6">
               <h6>The Venue</h6>
-                <p class="c-no-margin-p">IMA House</p>
-                <p class="c-no-margin-p">Kaloor</p>
+                <p class="c-no-margin-p">Xavier Institute of Management &amp; Entrepreneurship (XIME)</p>
+                <p class="c-no-margin-p">HMT PO, Kalamassery</p>
                 <p class="c-no-margin-p">Kochi</p>
                 <p>KL, India</p>
 
@@ -856,6 +856,10 @@
 
                               <a href="https://www.facebook.com/divine.shine" title="Shine Nelson" class="credits-name-link" data-mouseover="Shine Nelson" id="info-shine">
                                   <img src="images/credits/shine.jpg" alt="Shine Nelson" /></a>
+                              <a href="https://www.facebook.com/sirajul.11" title="Sirajul Muneer" class="credits-name-link" data-mouseover="Shine Nelson" id="info-shine">
+                                  <img src="images/credits/siraj.jpg" alt="Sirajul Muneer" /></a>
+                              <a href="https://www.facebook.com/blazingbinzzz" title="Binoy Balu" class="credits-name-link" data-mouseover="Binoy Balu" id="info-shine">
+                                  <img src="images/credits/binoy.jpg" alt="Binoy Balu" /></a>
                           </p>
 
                           <p class="selected-person-info-contain" id="selected-person-info-contain"></p>
@@ -1001,7 +1005,7 @@
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
   function initialize() {
-    var latlng = new google.maps.LatLng(9.988533333333333,76.30113333333334);
+    var latlng = new google.maps.LatLng(10.055318,76.348153);
     var myOptions = {
       zoom: 14,
       center: latlng,
