@@ -100,7 +100,7 @@
               <div class="c-home-area-icons-wrap">
                 <img src="images/loc-icon.png" alt="html5-devconf-icon">
               </div>
-              <h5>IMA House, Kaloor</h5>
+              <h5>XIME, Kalamassery</h5>
               <h5>Kochi</h5>
             </div>
           </div>
@@ -708,8 +708,8 @@
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6">
               <h6>The Venue</h6>
-                <p class="c-no-margin-p">IMA House</p>
-                <p class="c-no-margin-p">Kaloor</p>
+                <p class="c-no-margin-p">Xavier Institute of Management &amp; Entrepreneurship (XIME)</p>
+                <p class="c-no-margin-p">HMT PO, Kalamassery</p>
                 <p class="c-no-margin-p">Kochi</p>
                 <p>KL, India</p>
 
@@ -1001,7 +1001,7 @@
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
   function initialize() {
-    var latlng = new google.maps.LatLng(9.988533333333333,76.30113333333334);
+    var latlng = new google.maps.LatLng(10.055318,76.348153);
     var myOptions = {
       zoom: 14,
       center: latlng,
