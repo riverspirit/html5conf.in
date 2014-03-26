@@ -73,6 +73,7 @@
             <div class="col-lg-6 col-md-6 col-sm-6">
               <h4 class="c-home-area-first-h4">#onehashtag</h4>
               <h1 id="masthead">#</h1>
+              <span class="follow-us-text">Follow us to get event updates </span><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhtml5defcon&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=683332995016587" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
               <h4>HTML5 Developer Conference 2014</h4>
