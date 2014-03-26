@@ -55,7 +55,7 @@ $(document).ready(function () {
 
                 + '<div class="c-speaker-social-icons">'
 
-                    + '<ul>'
+        /*            + '<ul>'
                         + '<li class="c-speaker-fb">'
                             + '<a href="#">facebook</a>'
                         + '</li>'
@@ -68,7 +68,7 @@ $(document).ready(function () {
                         + '<li class="c-speaker-in">'
                             + '<a href="#">linkedin</a>'
                         + '</li>'
-                    + '</ul>'
+                    + '</ul>'*/
 
                 + '</div>'
             + '</div>';
@@ -84,7 +84,7 @@ $(document).ready(function () {
 
                 + '<div class="c-speaker-social-icons">'
 
-                    + '<ul>'
+    /*                + '<ul>'
                         + '<li class="c-speaker-fb">'
                             + '<a href="#">facebook</a>'
                         + '</li>'
@@ -97,12 +97,12 @@ $(document).ready(function () {
                         + '<li class="c-speaker-in">'
                             + '<a href="#">linkedin</a>'
                         + '</li>'
-                    + '</ul>'
+                    + '</ul>'*/
 
                 + '</div>'
             + '</div>';
 
-    // Girish
+    /*// Girish
     speakers[4] = '<div class="c-speaker-each text-center">'
                 + '<div class="c-speaker-img-wrap">'
                     + '<img alt="html5-devconf-speaker" src="images/speaker-placeholder.jpg">'
@@ -129,7 +129,7 @@ $(document).ready(function () {
                     + '</ul>'
 
                 + '</div>'
-            + '</div>';
+            + '</div>';*/
 
     // Haider
     speakers[5] = '<div class="c-speaker-each text-center">'
@@ -144,16 +144,16 @@ $(document).ready(function () {
 
                     + '<ul>'
                         + '<li class="c-speaker-fb">'
-                            + '<a href="#">facebook</a>'
+                            + '<a href="https://www.facebook.com/sahrizv">facebook</a>'
                         + '</li>'
                         + '<li class="c-speaker-gp">'
-                            + '<a href="#">google+</a>'
+                            + '<a href="https://plus.google.com/u/0/+SyedAqueelHaiderRizvi/">google+</a>'
                         + '</li>'
                         + '<li class="c-speaker-tw">'
-                            + '<a href="#">twitter</a>'
+                            + '<a href="https://twitter.com/sahrizv">twitter</a>'
                         + '</li>'
                         + '<li class="c-speaker-in">'
-                            + '<a href="#">linkedin</a>'
+                            + '<a href="http://in.linkedin.com/in/sahrizvi/">linkedin</a>'
                         + '</li>'
                     + '</ul>'
 
@@ -173,45 +173,36 @@ $(document).ready(function () {
 
                     + '<ul>'
                         + '<li class="c-speaker-fb">'
-                            + '<a href="#">facebook</a>'
-                        + '</li>'
-                        + '<li class="c-speaker-gp">'
-                            + '<a href="#">google+</a>'
+                            + '<a href="https://www.facebook.com/inkwash">facebook</a>'
                         + '</li>'
                         + '<li class="c-speaker-tw">'
-                            + '<a href="#">twitter</a>'
-                        + '</li>'
-                        + '<li class="c-speaker-in">'
-                            + '<a href="#">linkedin</a>'
+                            + '<a href="https://twitter.com/inkwash">twitter</a>'
                         + '</li>'
                     + '</ul>'
 
                 + '</div>'
             + '</div>';
 
-    // Rahul
+    // Revath
     speakers[7] = '<div class="c-speaker-each text-center">'
                 + '<div class="c-speaker-img-wrap">'
-                    + '<img alt="html5-devconf-speaker" src="images/rahul-ramesh.jpg">'
+                    + '<img alt="html5-devconf-speaker" src="images/revath.jpg">'
                 + '</div>'
-                + '<h4>Rahul Ramesh</h4>'
-                + '<h6>CEO</h6>'
-                + '<h6>Codeyssus</h6>'
+                + '<h4>Revath S Kumar</h4>'
+                + '<h6>Coder</h6>'
+                + '<h6>Opensource projects</h6>'
 
                 + '<div class="c-speaker-social-icons">'
 
                     + '<ul>'
-                        + '<li class="c-speaker-fb">'
-                            + '<a href="#">facebook</a>'
-                        + '</li>'
                         + '<li class="c-speaker-gp">'
-                            + '<a href="#">google+</a>'
+                            + '<a href="https://plus.google.com/u/0/+RevathSKumar">google+</a>'
                         + '</li>'
                         + '<li class="c-speaker-tw">'
-                            + '<a href="#">twitter</a>'
+                            + '<a href="https://twitter.com/revathskumar">twitter</a>'
                         + '</li>'
                         + '<li class="c-speaker-in">'
-                            + '<a href="#">linkedin</a>'
+                            + '<a href="http://www.linkedin.com/in/revathskumar">linkedin</a>'
                         + '</li>'
                     + '</ul>'
 

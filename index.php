@@ -407,17 +407,17 @@
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/rahul-ramesh.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/revath.jpg" alt="html5-devconf-schedule-icon">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
                           12:00pm
                         </p>
                         <p class="c-schedule-session-name">
-                          Prototyping in Style
+                          Modern Frontend Workflow
                         </p>
                         <p class="c-schedule-name">
-                          Rahul Ramesh
+                          Revath S Kumar
                         </p>
                       </div>
                     </div>
