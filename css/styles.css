@@ -1,5 +1,7 @@
 body{
 	font-family: 'Lato', sans-serif;
+	min-width: 250px;
+	
 }
 a{
 	transition: all 0.3s;
@@ -107,6 +109,8 @@ label{
 .btn-lg{
 	padding: 20px 60px;
 	font-size: 17px;
+	width: 80%;
+	max-width: 250px;
 }
 .c-header{
 	background: #fff;
@@ -638,6 +642,20 @@ label{
 		
 		padding: 10px;
 	}
+
+	/* EDITED BY SIRAJ */
+	#sessions .col-lg-3 {
+		width: 100%;
+		min-width: 262px;
+		clear: both;
+	}
+
+	#sessions .col-lg-3 img {
+		width: 75%;
+		min-width: 262px;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
 
 
@@ -813,4 +831,37 @@ label{
 .schedule-empty-col:hover {
     background: none;
     cursor: default;
+}
+
+/* EDITE NY SIRAJ */
+#sessions .col-lg-3 {
+	height: 270px;
+}
+
+
+@media (max-width: 340px){
+	.btn-lg{
+		padding: 20px 20px;
+	}
+}
+
+@media (max-width: 440px){
+	.c-home-area{
+		background-size:100% 100%;
+	}
+
+	.c-home-area-icons-wrap{
+		height: 40px;
+	}
+
+	.c-speaker-img-wrap img{
+
+		border-radius: 50%;
+
+	}
+	.c-speaker-img-wrap {
+		width: auto;
+		height: auto;
+
+	}
 }
