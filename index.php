@@ -3,7 +3,7 @@
   <head>
     <title>HTML5 Developer Conference 2014 | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="HTML5 Developer conference is a web technology focused conference, Taking place on April 12 & 13 at Cochin, the queen of Arabian sea. Organized by Mozilla Kerala community & a few enthusiast.">
+    <meta name="description" content="HTML5 Developer conference is a conference on front-end technologies, taking place on April 12 & 13 at Kochi, the queen of Arabian the sea. The event is sponsored and participated by organizations including Mozilla and Opera.">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,700,900' rel='stylesheet' type='text/css'>
