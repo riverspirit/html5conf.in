@@ -3,7 +3,7 @@
   <head>
     <title>HTML5 Developer Conference 2014 | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="HTML5 Developer Conference 2014">
+    <meta name="description" content="HTML5 Developer conference is a web technology focused conference, Taking place on April 12 & 13 at Cochin, the queen of Arabian sea. Organized by Mozilla Kerala community & a few enthusiast.">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,700,900' rel='stylesheet' type='text/css'>
@@ -12,7 +12,7 @@
     <meta property="og:site_name" content="HTML5 Developer Conference 2014">
     <meta property="og:title" content="HTML5 Developer Conference 2014">
     <meta property="og:url" content="http://html5conf.in">
-    <meta property="og:description" content="The first ever HTML5/JS developer conference in Kerala is happening in Kochi on 12th and 13th April 2014. Sponsored organizations including Mozilla and Opera, the event features an array of eminent speakers in the field.">
+    <meta property="og:description" content="HTML5 Developer conference is a web technology focused conference, Taking place on April 12 & 13 at Cochin, the queen of Arabian sea. Organized by Mozilla Kerala community & a few enthusiast.">
     <meta property="og:image" content="http://html5conf.in/images/HTML5-Developer-Conference-2014.jpg">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
