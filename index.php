@@ -817,7 +817,7 @@
 
       <!-- Modal -->
       <div class="modal fade" id="c-modal-credits" tabindex="-1" role="dialog" aria-labelledby="myModalLabelcredits" aria-hidden="true">
-          <div class="modal-dialog">
+          <div id="credits-dialog" class="modal-dialog">
               <div class="modal-content">
                   <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -857,9 +857,9 @@
 
                               <a href="https://www.facebook.com/divine.shine" title="Shine Nelson" class="credits-name-link" data-mouseover="Shine Nelson" id="info-shine">
                                   <img src="images/credits/shine.jpg" alt="Shine Nelson" /></a>
-                              <a href="https://www.facebook.com/sirajul.11" title="Sirajul Muneer" class="credits-name-link" data-mouseover="Shine Nelson" id="info-shine">
+                              <a href="https://www.facebook.com/sirajul.11" title="Sirajul Muneer" class="credits-name-link" data-mouseover="Sirajul Muneer" id="info-siraj">
                                   <img src="images/credits/siraj.jpg" alt="Sirajul Muneer" /></a>
-                              <a href="https://www.facebook.com/blazingbinzzz" title="Binoy Balu" class="credits-name-link" data-mouseover="Binoy Balu" id="info-shine">
+                              <a href="https://www.facebook.com/blazingbinzzz" title="Binoy Balu" class="credits-name-link" data-mouseover="Binoy Balu" id="info-binoy">
                                   <img src="images/credits/binoy.jpg" alt="Binoy Balu" /></a>
                           </p>
 
