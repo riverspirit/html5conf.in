@@ -718,7 +718,15 @@
 
               <h6 class="c-contact-below-h6">Get updates on Facebook</h6>
               <div class="c-socio-contact">
-                  <a class="c-socio-fb" href="https://www.facebook.com/MozillaKerala">facebook</a>
+                  <a class="c-socio-fb" href="https://facebook.com/MozillaKerala">facebook</a>
+                  <a class="c-socio-gp" href="https://plus.google.com/114831280089581546580/">google+</a>
+                  <a class="c-socio-tw" href="https://twitter.com/MozillaKerala">twitter</a>
+              </div>
+              &nbsp;
+              <h6 class="c-contact-below-h6">RSVP on Social Media</h6>
+              <div class="c-socio-contact">
+                  <a class="c-socio-fb" href="https://facebook.com/events/1422207844694782/">facebook</a>
+                  <a class="c-socio-gp" href="https://plus.google.com/events/cenu2oppbgqk2jt0jckv4f4hsgk">google+</a>
               </div>
             </div>
           </div>
