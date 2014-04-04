@@ -3,7 +3,7 @@
   <head>
     <title>HTML5 Developer Conference 2014 | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="HTML5 Developer Conference 2014">
+    <meta name="description" content="HTML5 Developer conference is a conference on front-end technologies, taking place on April 12 & 13 at Kochi, the queen of Arabian the sea. The event is sponsored and participated by organizations including Mozilla and Opera.">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,700,900' rel='stylesheet' type='text/css'>
@@ -12,7 +12,7 @@
     <meta property="og:site_name" content="HTML5 Developer Conference 2014">
     <meta property="og:title" content="HTML5 Developer Conference 2014">
     <meta property="og:url" content="http://html5conf.in">
-    <meta property="og:description" content="The first ever HTML5/JS developer conference in Kerala is happening in Kochi on 12th and 13th April 2014. Sponsored organizations including Mozilla and Opera, the event features an array of eminent speakers in the field.">
+    <meta property="og:description" content="HTML5 Developer conference is a web technology focused conference, Taking place on April 12 & 13 at Cochin, the queen of Arabian sea. Organized by Mozilla Kerala community & a few enthusiast.">
     <meta property="og:image" content="http://html5conf.in/images/HTML5-Developer-Conference-2014.jpg">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -73,6 +73,7 @@
             <div class="col-lg-6 col-md-6 col-sm-6">
               <h4 class="c-home-area-first-h4">#onehashtag</h4>
               <h1 id="masthead">#</h1>
+              <span class="follow-us-text">Follow us to get the latest updates </span><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhtml5defcon&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=683332995016587" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
               <h4>HTML5 Developer Conference 2014</h4>
@@ -100,7 +101,7 @@
               <div class="c-home-area-icons-wrap">
                 <img src="images/loc-icon.png" alt="html5-devconf-icon">
               </div>
-              <h5>IMA House, Kaloor</h5>
+              <h5>XIME, Kalamassery</h5>
               <h5>Kochi</h5>
             </div>
           </div>
@@ -406,17 +407,17 @@
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/rahul-ramesh.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/revath.jpg" alt="html5-devconf-schedule-icon">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
                           12:00pm
                         </p>
                         <p class="c-schedule-session-name">
-                          Prototyping in Style
+                          Modern Frontend Workflow
                         </p>
                         <p class="c-schedule-name">
-                          Rahul Ramesh
+                          Revath S Kumar
                         </p>
                       </div>
                     </div>
@@ -656,7 +657,7 @@
             <?php } else { ?>
             
 				<div class="desc">
-					<h2>Contact Us</h2>
+					<h6>Contact Form</h6>
 					
 					<p class="desc">Please use the contact form below to send us any information we may need. It is required you place an e-mail, although if you do not need us to respond feel free to input noreply@yoursite.com.</p>
 				</div>
@@ -708,8 +709,8 @@
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6">
               <h6>The Venue</h6>
-                <p class="c-no-margin-p">IMA House</p>
-                <p class="c-no-margin-p">Kaloor</p>
+                <p class="c-no-margin-p">Xavier Institute of Management &amp; Entrepreneurship (XIME)</p>
+                <p class="c-no-margin-p">HMT PO, Kalamassery</p>
                 <p class="c-no-margin-p">Kochi</p>
                 <p>KL, India</p>
 
@@ -717,7 +718,15 @@
 
               <h6 class="c-contact-below-h6">Get updates on Facebook</h6>
               <div class="c-socio-contact">
-                  <a class="c-socio-fb" href="https://www.facebook.com/MozillaKerala">facebook</a>
+                  <a class="c-socio-fb" href="https://facebook.com/MozillaKerala">facebook</a>
+                  <a class="c-socio-gp" href="https://plus.google.com/114831280089581546580/">google+</a>
+                  <a class="c-socio-tw" href="https://twitter.com/MozillaKerala">twitter</a>
+              </div>
+              &nbsp;
+              <h6 class="c-contact-below-h6">RSVP on Social Media</h6>
+              <div class="c-socio-contact">
+                  <a class="c-socio-fb" href="https://facebook.com/events/1422207844694782/">facebook</a>
+                  <a class="c-socio-gp" href="https://plus.google.com/events/cenu2oppbgqk2jt0jckv4f4hsgk">google+</a>
               </div>
             </div>
           </div>
@@ -816,7 +825,7 @@
 
       <!-- Modal -->
       <div class="modal fade" id="c-modal-credits" tabindex="-1" role="dialog" aria-labelledby="myModalLabelcredits" aria-hidden="true">
-          <div class="modal-dialog">
+          <div id="credits-dialog" class="modal-dialog">
               <div class="modal-content">
                   <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -856,6 +865,10 @@
 
                               <a href="https://www.facebook.com/divine.shine" title="Shine Nelson" class="credits-name-link" data-mouseover="Shine Nelson" id="info-shine">
                                   <img src="images/credits/shine.jpg" alt="Shine Nelson" /></a>
+                              <a href="https://www.facebook.com/sirajul.11" title="Sirajul Muneer" class="credits-name-link" data-mouseover="Sirajul Muneer" id="info-siraj">
+                                  <img src="images/credits/siraj.jpg" alt="Sirajul Muneer" /></a>
+                              <a href="https://www.facebook.com/blazingbinzzz" title="Binoy Balu" class="credits-name-link" data-mouseover="Binoy Balu" id="info-binoy">
+                                  <img src="images/credits/binoy.jpg" alt="Binoy Balu" /></a>
                           </p>
 
                           <p class="selected-person-info-contain" id="selected-person-info-contain"></p>
@@ -1000,7 +1013,7 @@
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
   function initialize() {
-    var latlng = new google.maps.LatLng(9.988533333333333,76.30113333333334);
+    var latlng = new google.maps.LatLng(10.055318,76.348153);
     var myOptions = {
       zoom: 14,
       center: latlng,
