@@ -893,7 +893,6 @@
               <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#contact">Contact</a></li>
                 <li><a href="#" data-target="#c-modal-sponsor" data-toggle="modal">Become a sponsor</a></li>
                 <li><a href="#" data-target="#c-modal-credits" data-toggle="modal">Credits</a></li>
               </ul>
