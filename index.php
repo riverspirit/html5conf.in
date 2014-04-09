@@ -393,7 +393,7 @@
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          03:05pm
+                          12:00pm
                         </p>
                         <p class="c-schedule-session-name">
                           Modern Javascript
