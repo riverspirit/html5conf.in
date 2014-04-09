@@ -224,8 +224,8 @@
                           <img src="images/praseed-pai.jpg" alt="html5-devconf-speaker">
                         </div>
                         <h4>Praseed Pai </h4>
-                        <h6>Principal Consultant</h6>
-                        <h6> Godel-Number Consulting</h6>
+                        <h6>Solutions Architect</h6>
+                        <h6>UST Global</h6>
                         
                         <div class="c-speaker-social-icons">
                           
@@ -389,17 +389,17 @@
                   <div class="row c-schedule-row-each">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/ashwin-krishnan.jpg" alt="html5-devconf-schedule-icon">
+                        <img src="images/praseed-pai.jpg" alt="html5-devconf-schedule-icon">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
-                          12:00pm
+                          03:05pm
                         </p>
                         <p class="c-schedule-session-name">
-                          Meteor.js
+                          Modern Javascript
                         </p>
                         <p class="c-schedule-name">
-                          Ashwin Krishnan
+                          Praseed Pai
                         </p>
                       </div>
                     </div>
@@ -463,17 +463,17 @@
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/mocha.png" alt="html5-devconf-schedule-icon">
+                        <img src="images/js-action.png" alt="html5-devconf-schedule-icon">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
                           02:30pm
                         </p>
                         <p class="c-schedule-session-name">
-                          Mocha
+                          Javascript: "Good Parts" in action
                         </p>
                         <p class="c-schedule-name">
-                          Girish Kulkarni
+                          Shine Xavier
                         </p>
                       </div>
                     </div>
@@ -500,37 +500,37 @@
 
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                       <div class="c-schedule-pic">
-                        <img src="images/js-action.png" alt="html5-devconf-schedule-icon">
+                        <img src="images/prakash-babu.jpg" alt="html5-devconf-schedule-icon">
                       </div>
                       <div class="c-schedule-details">
                         <p class="c-schedule-time">
                           04:00pm
                         </p>
                         <p class="c-schedule-session-name">
-                          Javascript: "Good Parts" in action
+                          Developing apps for Google Glass using HTML5
                         </p>
                         <p class="c-schedule-name">
-                          Shine Xavier
+                          Prakash Babu
                         </p>
                       </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
-                      <div class="c-schedule-pic">
-                        <img src="images/praseed-pai.jpg" alt="html5-devconf-schedule-icon">
-                      </div>
-                      <div class="c-schedule-details">
-                        <p class="c-schedule-time">
-                          03:05pm
-                        </p>
-                        <p class="c-schedule-session-name">
-                          Modern Javascript
-                        </p>
-                        <p class="c-schedule-name">
-                          Praseed Pai
-                        </p>
-                      </div>
-                    </div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
+                       <div class="c-schedule-pic">
+                         <img src="images/praveen-sridhar.jpg" alt="html5-devconf-schedule-icon">
+                       </div>
+                       <div class="c-schedule-details">
+                         <p class="c-schedule-time">
+                           03:15pm
+                         </p>
+                         <p class="c-schedule-session-name">
+                           Javascript Robotics
+                         </p>
+                         <p class="c-schedule-name">
+                           Praveen Sridhar
+                         </p>
+                       </div>
+                     </div>
               
               </div>
 
@@ -542,17 +542,17 @@
 
                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 c-schedule-each">
                            <div class="c-schedule-pic">
-                             <img src="images/praveen-sridhar.jpg" alt="html5-devconf-schedule-icon">
+                             <img src="images/game-over.jpg" alt="html5-devconf-schedule-icon">
                            </div>
                            <div class="c-schedule-details">
                              <p class="c-schedule-time">
-                               04:00pm
+                               04:30pm
                              </p>
                              <p class="c-schedule-session-name">
-                               Javascript Robotics
+                               THE END
                              </p>
                              <p class="c-schedule-name">
-                               Praveen Sridhar
+                               We socialize, network and say good byes; till the next time.
                              </p>
                            </div>
                          </div>
