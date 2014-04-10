@@ -790,7 +790,11 @@
                 <div class="col-md-4 col-sm-6 col-xs-6">
                   <img src="images/dm_logo.png" alt="html5-devconf-sponsor" class="html5-devconf-sponsor-logo">
                 </div>
-                
+              </div>
+              <div class="row sponsor-with-margin">
+                <div class="col-md-4 col-sm-6 col-xs-6">
+                  <img src="images/tt_logo.jpg" alt="html5-devconf-sponsor" class="html5-devconf-sponsor-logo">
+                </div>
               </div>
             </div>
           </div>
@@ -814,6 +818,29 @@
             <div class="modal-body">
                 <p>Want to sponsor the event? Thinking about partnering with us?</p>
                 <p>Please contact <a href="mailto:hello@html5conf.in"> hello@html5conf.in</a> with sponsorship/partnership proposals and enquiries, and we'll get right back to you.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="c-modal-sponsors" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">Our Sponsors and Partners</h4>
+            </div>
+            <div class="modal-body">
+                <h6>Platinum Sponsor</h6>
+                Mozilla
+                <h6>Executive Sponsor</h6>
+                Opera
+
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -907,6 +934,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#" data-target="#c-modal-sponsor" data-toggle="modal">Become a sponsor</a></li>
+                <li><a href="#" data-target="#c-modal-sponsors" data-toggle="modal">Sponsors</a></li>
                 <li><a href="#" data-target="#c-modal-credits" data-toggle="modal">Credits</a></li>
               </ul>
               <p class="text-right" style="margin-top:-10px;">Designed by <a href="http://codeyssus.com/" target="_blank">Codeyssus Labs</a></p>
