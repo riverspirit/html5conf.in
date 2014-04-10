@@ -828,6 +828,29 @@
       </div>
 
       <!-- Modal -->
+      <div class="modal fade" id="c-modal-sponsors" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">Our Sponsors and Partners</h4>
+            </div>
+            <div class="modal-body">
+                <h6>Platinum Sponsor</h6>
+                Mozilla
+                <h6>Executive Sponsor</h6>
+                Opera
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Modal -->
       <div class="modal fade" id="c-modal-credits" tabindex="-1" role="dialog" aria-labelledby="myModalLabelcredits" aria-hidden="true">
           <div id="credits-dialog" class="modal-dialog">
               <div class="modal-content">
@@ -911,6 +934,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#" data-target="#c-modal-sponsor" data-toggle="modal">Become a sponsor</a></li>
+                <li><a href="#" data-target="#c-modal-sponsors" data-toggle="modal">Sponsors</a></li>
                 <li><a href="#" data-target="#c-modal-credits" data-toggle="modal">Credits</a></li>
               </ul>
               <p class="text-right" style="margin-top:-10px;">Designed by <a href="http://codeyssus.com/" target="_blank">Codeyssus Labs</a></p>
