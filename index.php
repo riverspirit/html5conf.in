@@ -114,7 +114,7 @@
       <div class="c-container-wrap c-register-button">
         <div class="container">
           <div class="row">
-              <p class="text-center"><a target="_blank" href=" http://em.explara.com/conference/html5-dev-conf" class="btn btn-lg">Register now</a></p>
+              <p class="text-center"><a href="javascript:;" class="btn btn-lg btn-sold-out">SOLD OUT!</a></p>
           </div>
         </div>
       </div>

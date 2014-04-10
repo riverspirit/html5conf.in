@@ -874,3 +874,11 @@ label{
 .follow-us-text {
     vertical-align: top;
 }
+
+.btn-sold-out {
+	cursor: default;;
+}
+
+.btn-sold-out:hover {
+	cursor: default;;
+}
