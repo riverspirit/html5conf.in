@@ -874,3 +874,11 @@ label{
 .follow-us-text {
     vertical-align: top;
 }
+
+.col-md-12 .row {
+    display: inline-block;
+}
+
+.col-md-12 .sponsor-with-margin {
+    margin-left:16%;
+}

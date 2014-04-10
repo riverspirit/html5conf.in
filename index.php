@@ -790,7 +790,11 @@
                 <div class="col-md-4 col-sm-6 col-xs-6">
                   <img src="images/dm_logo.png" alt="html5-devconf-sponsor" class="html5-devconf-sponsor-logo">
                 </div>
-                
+              </div>
+              <div class="row sponsor-with-margin">
+                <div class="col-md-4 col-sm-6 col-xs-6">
+                  <img src="images/tt_logo.jpg" alt="html5-devconf-sponsor" class="html5-devconf-sponsor-logo">
+                </div>
               </div>
             </div>
           </div>
