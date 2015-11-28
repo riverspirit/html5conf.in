@@ -652,9 +652,7 @@
 
           <div class="row">
             <div class="col-md-4">
-              <?php if(isset($emailSent) && $emailSent == true) { ?>
-                <p class="info">Your email was sent. Huzzah!</p>
-            <?php } else { ?>
+              
             
 				<div class="desc">
 					<h6>Contact Form</h6>
@@ -663,33 +661,25 @@
 				</div>
 				
 				<div id="contact-form">
-					<?php if(isset($hasError) || isset($captchaError) ) { ?>
-                        <p class="alert">Error submitting the form</p>
-                    <?php } ?>
+					
 				
 					<form id="contact-us" action="contact.php" method="post">
 						<div class="formblock">
 							<label>Your name</label>
-							<input type="text" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="requiredField" placeholder="Enter name here" />
-							<?php if($nameError != '') { ?>
-								<br /><span class="error"><?php echo $nameError;?></span> 
-							<?php } ?>
+							<input type="text" name="contactName" id="contactName" value="" class="requiredField" placeholder="Enter name here" />
+							
 						</div>
                         
 						<div class="formblock">
 							<label>Your E-mail</label>
-							<input type="text" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="requiredField email" placeholder="Enter e-mail here" />
-							<?php if($emailError != '') { ?>
-								<br /><span class="error"><?php echo $emailError;?></span>
-							<?php } ?>
+							<input type="text" name="email" id="email" value="" class="requiredField email" placeholder="Enter e-mail here" />
+							
 						</div>
                         
 						<div class="formblock">
 							<label>Your Message</label>
-							 <textarea name="comments" id="commentsText" class="requiredField" placeholder="Message:"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
-							<?php if($commentError != '') { ?>
-								<br /><span class="error"><?php echo $commentError;?></span> 
-							<?php } ?>
+							 <textarea name="comments" id="commentsText" class="requiredField" placeholder="Message:"></textarea>
+						
 						</div>
                         
 							<input name="submit" type="submit" class="btn btn-large" value="Send us Mail!">
@@ -697,7 +687,6 @@
 					</form>			
 				</div>
 				
-			<?php } ?>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6">
               <h6>HTML5 DevConf 2014</h6>
